@@ -61,7 +61,7 @@ Mod+[1-0]    - Switch to workspace 1-10
  F6           Decrease Brightness
  F7           Increase Brightness
 
-Press any key to close
+Press q to close
 EOL
 
 # Open the cheatsheet in a terminal
