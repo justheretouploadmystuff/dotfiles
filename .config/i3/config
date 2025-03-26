@@ -116,8 +116,6 @@ for_window [class="firefox" window_type="popup_menu"] border pixel 0
 for_window [class="firefox" window_type="dropdown_menu"] border pixel 0
 for_window [class="firefox" window_type="menu"] border pixel 00
 
-# Idle configuration
-bindsym $mod+l exec --no-startup-id ~/.config/i3/scripts/screen-lock.sh
 
 
 # Nord Color Theme
