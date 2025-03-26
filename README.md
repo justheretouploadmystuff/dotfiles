@@ -25,8 +25,7 @@ sudo apt update && sudo apt install -y \
     zsh \
     neovim \
     lxappearance \
-    fonts-jetbrains-mono \
-    fonts-nerd-fonts-symbols
+    fonts-jetbrains-mono 
 ```
 
 ## Optional but Recommended Packages
