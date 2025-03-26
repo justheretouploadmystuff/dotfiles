@@ -38,6 +38,7 @@ sudo apt install -y \
 Ensure you have Nerd Fonts installed. Specifically:
 - 0xProto Nerd Font
 - JetBrains Mono Nerd Font
+- Others already included in `.fonts`
 
 ## OH MY ZSH (Required)
 Needed for some plugins to work.
