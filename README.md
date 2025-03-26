@@ -18,7 +18,7 @@ sudo apt update && sudo apt install -y \
     dunst \
     kitty \
     feh \
-    qt5tc \
+    qt5ct \
     zsh \
     neovim \
     lxappearance \
@@ -49,7 +49,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## Configuration Steps
 1. Git Clone my dotfiles then copy the `.config` to `.config`
 
-1.2. Copy the others to ~ (`.themes`,`.icons`,`.fonts` and manually edit these using lxappearance and qt5tc to get nord theme gtk+qt5)
+1.2. Copy the others to ~ (`.themes`,`.icons`,`.fonts` and manually edit these using lxappearance and qt5tc to get nord theme gtk and icons+qt5 apps)
 
 1.3. Run `installfonts.sh`(make sure to `chmod +x installfonts.sh` first)
 
