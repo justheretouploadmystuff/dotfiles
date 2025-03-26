@@ -19,6 +19,8 @@ sudo apt update && sudo apt install -y \
     kitty \
     feh \
     qt5tc \
+    zsh \
+    neovim \
     lxappearance \
     fonts-jetbrains-mono \
     fonts-nerd-fonts-symbols
@@ -27,8 +29,6 @@ sudo apt update && sudo apt install -y \
 ## Optional but Recommended Packages
 ```bash
 sudo apt install -y \
-    zsh \
-    neovim \
     eza \
     lazygit \
     gdb
