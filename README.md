@@ -42,7 +42,8 @@ Needed for some plugins to work.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-## Configuration Steps
+## Installation
+
 1. Git Clone my dotfiles then copy the `.config` to `.config`
 
 1.2. Copy the others (`.themes`,`.icons`,`.fonts`) to ~.
