@@ -4,7 +4,7 @@
 ![Nord Theme RICE](preview.png)
 
 ## Prerequisites
-Before installation, please back up your data. 
+Before installation, please back up your data. Also double check what scripts your copying.
 
 ## Required Packages
 Run the following command to install essential packages:
@@ -79,4 +79,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## Troubleshooting
 - If transparency or compositor issues occur, check `~/.config/picom/picom.conf`
 - For audio/bluetooth problems, ensure PulseAudio and Bluetooth services are running
-
+- If you still feel lost, don't be afraid to use claude.ai, it honestly helped me alot in my theming journey.
