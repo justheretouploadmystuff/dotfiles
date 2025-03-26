@@ -8,12 +8,6 @@ exec --no-startup-id feh --bg-scale $HOME/.config/i3/wallpaper.jpg
 # dunst (notif daemon)
 exec --no-startup-id dunst
 
-# Run battery management script at startup
-exec --no-startup-id $HOME/.config/i3/scripts/battery-saver.sh
-
-# Battery Management Keybinding
-bindsym $mod+Shift+w exec $HOME/.config/i3/scripts/battery-saver.sh
-
 set $mod Mod4
 
 # System font - lightweight and clean
