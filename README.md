@@ -36,12 +36,6 @@ sudo apt install -y \
     gdb
 ```
 
-## Font Installation
-Ensure you have Nerd Fonts installed. Specifically:
-- 0xProto Nerd Font
-- JetBrains Mono Nerd Font
-- Run `installfont.sh`(make sure to `chmod +x installfonts.sh` first)
-
 ## OH MY ZSH (Required)
 Needed for some plugins to work.
 ```bash
@@ -66,6 +60,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
    ```bash
    curl -sS https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
    ```
+   
+## Font Installation
+Ensure you have Nerd Fonts installed. Specifically:
+- 0xProto Nerd Font
+- JetBrains Mono Nerd Font
+- Run `installfont.sh`(make sure to `chmod +x installfonts.sh` first)
 
 ## Post-Installation
 1. Restart your system or log out and log back in.
