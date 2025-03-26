@@ -1,6 +1,8 @@
 
 # i3 Nord Theme Installation Guide for Linux Mint
 
+![Nord Theme RICE](preview.png)
+
 ## Prerequisites
 Before installation, please back up your data.
 
