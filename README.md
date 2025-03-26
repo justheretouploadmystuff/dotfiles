@@ -46,13 +46,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 
 ## Configuration Steps
-1. Git Clone my dotfiles then copy the `.config` to:
-   ```
-   ~/.config/
-   ```
+1. Git Clone my dotfiles then copy the `.config` to `.config`
+
 1.2. Copy the others to ~ (`.themes`,`.icons`,`.fonts` and manually edit these using lxappearance and qt5tc to get nord theme gtk+qt5)
 
-1.3. Run `installfonts.sh`(make sure to chmod +x first)
+1.3. Run `installfonts.sh`(make sure to `chmod +x installfonts.sh` first)
 
 
 2. Make scripts executable:
