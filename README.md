@@ -16,12 +16,8 @@ sudo apt update && sudo apt install -y \
     dunst \
     kitty \
     feh \
-    scrot \
-    pavucontrol \
-    blueman \
-    network-manager \
-    pulseaudio \
-    pulseaudio-module-bluetooth \
+    qt5tc \
+    lxappearance \
     fonts-jetbrains-mono \
     fonts-nerd-fonts-symbols
 ```
@@ -46,7 +42,8 @@ Ensure you have Nerd Fonts installed. Specifically:
    ```
    ~/.config/
    ```
-
+1.2. Copy the others to ~ (.themes,.icons,.fonts and manually edit these using lxappearance and qt5tc to get nord theme gtk+qt5)
+1.3. Run installfonts.sh(make sure to chmod +x first)
 2. Make scripts executable:
    ```bash
    chmod +x ~/.config/i3/scripts/*.sh
@@ -57,11 +54,6 @@ Ensure you have Nerd Fonts installed. Specifically:
    ```bash
    curl -sS https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
    ```
-
-## Recommended Additional Tools
-- Bluetooth: `blueman-manager`
-- Audio Control: `pavucontrol`
-- Network Management: `nm-connection-editor`
 
 ## Post-Installation
 1. Restart your system or log out and log back in.
