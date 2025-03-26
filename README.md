@@ -1,10 +1,10 @@
 
-# i3 Nord Theme Installation Guide for Linux Mint
+# i3 Nord Theme Installation Guide for Linux Mint [WIP TUTORIAL]
 
 ![Nord Theme RICE](preview.png)
 
 ## Prerequisites
-Before installation, please back up your data.
+Before installation, please back up your data. 
 
 ## Required Packages
 Run the following command to install essential packages:
@@ -39,6 +39,12 @@ Ensure you have Nerd Fonts installed. Specifically:
 - 0xProto Nerd Font
 - JetBrains Mono Nerd Font
 
+## OH MY ZSH (Required)
+Needed for some plugins to work.
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ## Configuration Steps
 1. Clone your dotfiles repository or manually copy the configuration files to:
    ```
@@ -71,8 +77,3 @@ Ensure you have Nerd Fonts installed. Specifically:
 - If transparency or compositor issues occur, check `~/.config/picom/picom.conf`
 - For audio/bluetooth problems, ensure PulseAudio and Bluetooth services are running
 
-## Recommended Terminal Setup
-Consider installing Oh My Zsh for enhanced Zsh configuration:
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
