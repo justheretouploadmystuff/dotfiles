@@ -13,7 +13,7 @@ set $mod Mod4
 # System font - lightweight and clean
 font pango:DejaVu Sans Mono 8
 
-floating_modifier $mode
+floating_modifier $mod
 
 # Cheatsheet keybinding
 bindsym $mod+slash exec --no-startup-id $HOME/.config/i3/scripts/i3_cheatsheet.sh
