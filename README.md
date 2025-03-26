@@ -51,7 +51,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## Configuration Steps
 1. Git Clone my dotfiles then copy the `.config` to `.config`
 
-1.2. Copy the others to ~ (`.themes`,`.icons`,`.fonts` and manually edit these using lxappearance and qt5tc to get nord theme gtk and icons+qt5 apps)
+1.2. Copy the others (`.themes`,`.icons`,`.fonts`) to ~.
+
+1.3. Manually edit the nord theme using lxappearance and qt5tc to get nord theme gtk and icons+qt5 apps) (tho u might not need to, just check if u can though)
 
 
 2. Make scripts executable:
