@@ -4,7 +4,7 @@
 ![Nord Theme RICE](preview.png)
 
 ## Prerequisites
-Before installation, please back up your data. Also double check what scripts your copying.
+Before installation, please back up your data. Also double check what scripts you're copying.
 
 ## Required Packages
 Run the following command to install essential packages:
