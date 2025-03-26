@@ -41,7 +41,7 @@ sudo apt install -y \
 Ensure you have Nerd Fonts installed. Specifically:
 - 0xProto Nerd Font
 - JetBrains Mono Nerd Font
-- Others already included in `.fonts`
+- Run `installfonts.sh`(make sure to `chmod +x installfonts.sh` first)
 
 ## OH MY ZSH (Required)
 Needed for some plugins to work.
@@ -53,8 +53,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 1. Git Clone my dotfiles then copy the `.config` to `.config`
 
 1.2. Copy the others to ~ (`.themes`,`.icons`,`.fonts` and manually edit these using lxappearance and qt5tc to get nord theme gtk and icons+qt5 apps)
-
-1.3. Run `installfonts.sh`(make sure to `chmod +x installfonts.sh` first)
 
 
 2. Make scripts executable:
