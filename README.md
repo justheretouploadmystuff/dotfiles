@@ -51,7 +51,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
    ~/.config/
    ```
 1.2. Copy the others to ~ (.themes,.icons,.fonts and manually edit these using lxappearance and qt5tc to get nord theme gtk+qt5)
+
 1.3. Run installfonts.sh(make sure to chmod +x first)
+
+
 2. Make scripts executable:
    ```bash
    chmod +x ~/.config/i3/scripts/*.sh
