@@ -67,7 +67,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## Post-Installation
 1. Restart your system or log out and log back in.
 2. Use `Super + Shift + r` to restart i3 window manager.
-3. Use Super+/ for the cheatsheet
+3. Use `Super + /` for the cheatsheet
 
 ## Customization Notes
 - Modify `~/.config/rofi/config.rasi` for Rofi appearance
