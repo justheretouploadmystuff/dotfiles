@@ -39,9 +39,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 1. Git Clone my dotfiles then copy the following:
 
- 1.1) `.config` to `~/.config`
+     1.1) `.config` to `~/.config`
 
- 1.2) The others (`.themes`,`.icons`,`.fonts`) to `~`.
+     1.2) The others (`.themes`,`.icons`,`.fonts`) to `~`.
 
 
 2. Make scripts executable:
