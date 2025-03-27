@@ -3,7 +3,7 @@
 exec_always --no-startup-id $HOME/.config/i3/startup.sh
 
 # Set background once at startup (changed to exec instead of exec_always for efficiency)
-exec --no-startup-id feh --bg-scale /home/i3user/.config/wallpaper.jpg
+exec --no-startup-id feh --bg-scale $HOME/.config/wallpaper.jpg
 
 # dunst (notif daemon)
 exec --no-startup-id dunst
