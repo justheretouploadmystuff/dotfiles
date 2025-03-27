@@ -7,23 +7,41 @@ configuration {
 }
 
 * {
-  // general
-  bg: #181a1f;
-  bgt: #16191c86;
-  t: transparent;
-  fg: #9bb2bf;
+  // Nord Color Palette
+  nord0:  #2E3440;  // Darkest background
+  nord1:  #3B4252;  // Dark background
+  nord2:  #434C5E;  // Slightly lighter dark background
+  nord3:  #4C566A;  // Lightest dark background
+  nord4:  #D8DEE9;  // Light text
+  nord5:  #E5E9F0;  // Lighter text
+  nord6:  #ECEFF4;  // Lightest text
+  nord7:  #8FBCBB;  // Cyan
+  nord8:  #88C0D0;  // Bright cyan
+  nord9:  #81A1C1;  // Blue
+  nord10: #5E81AC;  // Dark blue
+  nord11: #BF616A;  // Red
+  nord12: #D08770;  // Orange
+  nord13: #EBCB8B;  // Yellow
+  nord14: #A3BE8C;  // Green
+  nord15: #B48EAD;  // Magenta
 
-  selected-bg: @fg;
-  selected-fg: @bg;
+  // General
+  bg:     @nord0;
+  bgt:    #2E3440d9;  // Transparent variant of nord0
+  t:      transparent;
+  fg:     @nord4;
 
-  // for windows
-  active: #5a687e;
-  urgent: #aa4f54;
+  selected-bg: @nord8;
+  selected-fg: @nord0;
+
+  // For windows
+  active: @nord10;
+  urgent: @nord11;
 }
 
 window {
   fullscreen: true;
-  padding: 35% 30%;       // you might want to ajust these to resize rofi.
+  padding: 35% 30%;       // you might want to adjust these to resize rofi.
   transparency: "real";
   background-color: @bgt;
   border-color: @t;
@@ -38,7 +56,7 @@ listview {
 scrollbar {
     width:        15px;
     border-radius:       7px;
-    handle-color: @fg;
+    handle-color: @nord8;
     handle-width: 13px;
     padding:      0 5;
 }
@@ -48,10 +66,6 @@ entry {
 }
 
 // less interesting stuff {{{
-
-// using elements from:
-// https://github.com/bardisty/gruvbox-rofi/blob/master/gruvbox-common.rasi
-
 textbox {
     text-color: @fg;
 }
@@ -66,11 +80,11 @@ element.normal.normal {
 }
 element.normal.urgent {
     background-color: @t;
-    text-color:       @urgent;
+    text-color:       @nord11;
 }
 element.normal.active {
     background-color: @t;
-    text-color:       @active;
+    text-color:       @nord10;
 }
 element.selected.normal {
     background-color: @selected-bg;
@@ -78,7 +92,7 @@ element.selected.normal {
 }
 element.selected.urgent {
     background-color: @selected-bg;
-    text-color:       @urgent;
+    text-color:       @nord0;
 }
 element.selected.active {
     background-color: @selected-bg;
@@ -90,16 +104,16 @@ element.alternate.normal {
 }
 element.alternate.urgent {
     background-color: @t;
-    text-color:       @urgent;
+    text-color:       @nord11;
 }
 element.alternate.active {
     background-color: @t;
-    text-color:       @active;
+    text-color:       @nord10;
 }
 
 sidebar {
     border:       2px 0 0;
-    border-color: @fg;
+    border-color: @nord8;
 }
 
 inputbar {
@@ -118,7 +132,7 @@ button {
 }
 
 button.selected {
-    background-color: @bg;
+    background-color: @nord1;
     text-color:       @fg;
 }
 
