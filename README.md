@@ -37,7 +37,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ## Installation
 
-1. Git Clone my dotfiles then copy the following:
+1. Clone my dotfiles then copy the following:
 
      1.1) `.config` to `~/.config`
 
