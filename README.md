@@ -7,7 +7,7 @@
 
 This is made for mint users who really like playing around with theming and editing .config files, do note that you can get all of this already shipped with cinnamon and run a polybar along with a few hotkeys (the only thing you're losing is tiling) , though you can daily drive with this.
 
-Before installing, please back up your data with timeshift, and double check what you're copyingg.
+Before installing, please back up your data with timeshift, and double check what you're copying.
 
 ## Required Packages
 Run the following command to install essential packages:
@@ -25,15 +25,8 @@ sudo apt update && sudo apt install -y \
     zsh \
     neovim \
     lxappearance \
+    i3lock
     fonts-jetbrains-mono 
-```
-
-## Optional but Recommended Packages
-```bash
-sudo apt install -y \
-    eza \
-    lazygit \
-    gdb
 ```
 
 ## OH MY ZSH (Required)
