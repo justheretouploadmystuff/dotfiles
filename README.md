@@ -25,7 +25,7 @@ sudo apt update && sudo apt install -y \
     zsh \
     neovim \
     lxappearance \
-    i3lock
+    i3lock \
     fonts-jetbrains-mono 
 ```
 
