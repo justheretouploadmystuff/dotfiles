@@ -103,22 +103,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-ramfetch() {
-    # Get memory information from /proc/meminfo
-    local total_mem=$(awk '/MemTotal:/ {print $2}' /proc/meminfo)
-    local free_mem=$(awk '/MemFree:/ {print $2}' /proc/meminfo)
-    local buffers=$(awk '/Buffers:/ {print $2}' /proc/meminfo)
-    local cached=$(awk '/^Cached:/ {print $2}' /proc/meminfo)
-    
-    # Calculate used memory
-    local used_mem=$((total_mem - free_mem - buffers - cached))
-    
-    # Convert to GB with one decimal place
-    local total_gb=$(echo "scale=1; $total_mem / 1024 / 1024" | bc)
-    local used_gb=$(echo "scale=1; $used_mem / 1024 / 1024" | bc)
-    
-    # Print formatted output
-    echo "Total Memory: $total_gb GB"
-    echo "Memory Used: $used_gb GB"
-}
 
