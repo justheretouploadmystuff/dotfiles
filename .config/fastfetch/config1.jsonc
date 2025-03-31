@@ -1,0 +1,61 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  OS
+//
+//  by Bina
+
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/cat.txt", // search for logos: fastfetch --list-logos or --print-logos
+        "padding": {
+	        "top": 1
+	},
+    },
+    "display": {
+        "separator": "  "
+    },
+    "modules": [
+	"break",
+	"title",
+    {
+      "type": "custom",
+      "format":"─────────────────────────",
+      "keyColor":"00"
+    },
+        {
+            "type": "os",
+            "key": "",
+            "format":"{3}",
+            "keyColor":"31",
+        },
+            {
+            "type": "packages",
+            "format": "{} (dpkg)",
+            "key": "󰏗",
+            "keyColor":"32", 
+        },
+        {
+            "type": "uptime",
+            "format": "{2}h {3}m {4}s",
+            "key": "",
+            "keyColor":"33",
+        },
+        {
+            "type": "terminal",
+            "key": "",
+            "format":"{1}",
+            "keyColor":"34",
+        },
+        {
+            "type": "memory",
+            "format":"{1}",
+            "key": "\uefc5",
+            "keyColor":"35",
+           
+        },
+             "break",
+    ]
+}

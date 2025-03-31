@@ -10,6 +10,7 @@ exec --no-startup-id dunst
 
 exec --no-startup-id $HOME/.config/i3/scripts/battery-saver.sh
 
+
 # Cheatsheet keybinding
 bindsym $mod+slash exec --no-startup-id $HOME/.config/i3/scripts/cheat.sh
 
@@ -28,7 +29,7 @@ bindsym $mod+k kill
 
 # Program launchers
 bindsym $mod+space exec --no-startup-id rofi -show drun
-bindsym $mod+Shift+b exec --no-startup-id gnome-screenshot 
+bindsym $mod+Shift+b exec --no-startup-id gnome-screenshot
 # Audio controls
 bindsym F1 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym F2 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
@@ -90,12 +91,21 @@ bindsym $mod+x workspace next
 bindsym $mod+z workspace prev
 
 # Resize mode
+
 mode "resize" {
+        # Keyboard resize bindings (kept for reference)
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize shrink height 10 px or 10 ppt
         bindsym Up resize grow height 10 px or 10 ppt
         bindsym Right resize grow width 10 px or 10 ppt
 
+        # Enable mouse resizing
+        bindsym --whole-window $mod+button1 resize shrink width 5 px or 5 ppt
+        bindsym --whole-window $mod+button3 resize grow width 5 px or 5 ppt
+        bindsym --whole-window $mod+button4 resize shrink height 5 px or 5 ppt
+        bindsym --whole-window $mod+button5 resize grow height 5 px or 5 ppt
+
+        # Return to default mode
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
@@ -107,19 +117,16 @@ gaps inner 5
 
 # Window borders - minimal for performance
 for_window [class=".*"] border pixel 0
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 2
 for_window [window_type="dialog"] border pixel 0
 for_window [window_type="menu"] border pixel 0
 for_window [window_type="tooltip"] border pixel 0
 
 # Firefox specific rules to fix black border issues
-for_window [class="firefox"] border pixel 1
+for_window [class="firefox"] border pixel 2
 for_window [class="firefox" window_type="popup_menu"] border pixel 0
 for_window [class="firefox" window_type="dropdown_menu"] border pixel 0
 for_window [class="firefox" window_type="menu"] border pixel 00
-
-# Idle configuration
-bindsym $mod+l exec --no-startup-id ~/.config/i3/scripts/screen-lock.sh
 
 
 # Nord Color Theme
